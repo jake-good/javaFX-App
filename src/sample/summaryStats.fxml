@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SummaryStats">
+   <children>
+      <Button fx:id="returnButton" layoutX="53.0" layoutY="341.0" mnemonicParsing="false" text="Return" />
+      <VBox layoutX="274.0" layoutY="86.0" prefHeight="277.0" prefWidth="179.0">
+         <children>
+            <Label fx:id="week" opacity="0.73" text="\$150">
+               <font>
+                  <Font size="44.0" />
+               </font>
+            </Label>
+            <Label fx:id="week2" opacity="0.57" text="\$150">
+               <font>
+                  <Font size="44.0" />
+               </font>
+            </Label>
+            <Label fx:id="week3" opacity="0.67" text="\$150">
+               <font>
+                  <Font size="44.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Label layoutX="105.0" layoutY="78.0" text="Total by Week:">
+         <font>
+            <Font name="HoloLens MDL2 Assets" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
